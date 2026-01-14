@@ -11,7 +11,7 @@ app.use(cors());
 const PORT = 3001;
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Backend API' });
+    res.json({ message: 'Welcome to the Backend API SAI' });
 });
 
 app.get('/health', (req, res) => {
